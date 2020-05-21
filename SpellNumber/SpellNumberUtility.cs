@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace SpellNumber
 {
-    class SpellNumberUtility
+    public class SpellNumberUtility
     {
+        public static string UsaCurrency = "cents ";
+        public static string InrCurrency = "Paisa ";
+        public static string DigitPlaceHundred = " Hundred ";
+        public static string DigitPlaceThousand = " Thousand ";
+        public static string DigitPlaceMillion = " Million ";
+        public static string DigitPlaceBillion = " Billion ";
+        public static string DigitPlaceTrillion = " Trillion ";
     }
 }
